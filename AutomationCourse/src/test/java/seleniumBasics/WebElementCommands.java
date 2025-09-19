@@ -11,6 +11,8 @@ public class WebElementCommands extends Base{
 		WebElement messagebox=driver.findElement(By.xpath("//input[@id='single-input-field']"));
 		messagebox.sendKeys("Divya");
 		WebElement showMessageBtn = driver.findElement(By.id("button-one"));
+		System.out.println(showMessageBtn.isDisplayed());//isDisplayed verified here
+		System.out.println(showMessageBtn.isEnabled());//isEnabled verified here
 		showMessageBtn.click();	
 		WebElement yourMsgTxt= driver.findElement(By.id("message-one"));
 		System.out.println(yourMsgTxt.getText());
