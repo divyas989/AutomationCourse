@@ -62,3 +62,27 @@ public class TestNGAnnotation {
 
 
 }
+
+
+
+/*Output
+ * 
+This is Before Suite 
+This is a before Test 
+This is a before Class 
+This is a before method
+This is the test case
+This is after method
+This is after Class
+This is after Test
+PASSED: seleniumBasics.TestNGAnnotation.sampleTest
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+This is After Suite
+
+===============================================
+ */

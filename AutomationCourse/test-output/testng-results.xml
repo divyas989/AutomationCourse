@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-26T21:11:16 IST" name="Default suite" finished-at="2025-09-26T21:11:20 IST" duration-ms="4072">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T21:11:16 IST" name="Default test" finished-at="2025-09-26T21:11:20 IST" duration-ms="4072">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="intialiseBrowser()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T21:11:16 IST" name="intialiseBrowser" finished-at="2025-09-26T21:11:19 IST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialiseBrowser -->
+        <test-method signature="verifyWheterUserisAbleToLoginWithValidCredentials()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T21:11:19 IST" name="verifyWheterUserisAbleToLoginWithValidCredentials" finished-at="2025-09-26T21:11:20 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWheterUserisAbleToLoginWithValidCredentials -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T21:11:20 IST" name="driverClose" finished-at="2025-09-26T21:11:20 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
