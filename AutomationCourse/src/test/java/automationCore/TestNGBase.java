@@ -24,7 +24,7 @@ public WebDriver driver;
 	
 	public void driverClose() {
 		//driver.close();
-		driver.quit();
+		//driver.quit();
 		
 		}
 	
